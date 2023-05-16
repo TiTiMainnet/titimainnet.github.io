@@ -1,0 +1,45 @@
+{
+  "name": "Buy TiUSD in TiTi AMM (Swap)",
+  "description": [{
+      "type": "Q",
+      "text": "How does use-to-earn reward you if you buy TiUSD in TiTi-AMMs?"
+    },
+    {
+      "type": "A",
+      "text": "In principle, the more TiUSD you buy from TiTi-AMMs, the more rewards you will earn.TiTi Use-to-earn farming rewards will be distributed to users in a 7-DAY-Cycle consecutively."
+    },
+    {
+      "type": "A",
+      "text": "The use-to-earn rewards stem from community incentive allocation. It should be clear that TiTi Reward will be calculated and distributed to TiUSD buyers at TiTi-AMMs according to their daily TiUSD buying volume every 24 hours. Meanwhile, you are able to claim trading volume rewards of the last Cycle (7 days) anytime after the Cycle finishes. The unclaimed TiTi Rewards for past Cycles will be automatically accumulated to your address. For this Epoch, you can claim the rewards after UTC 08:00 a.m. Mar 23rd, 2023 ."
+    },
+    {
+      "type": "A",
+      "text": "The displayed distributed reward is actually the accumulated TiTi Rewards, which increases everyday if you keep buying TiUSD in TiTi-AMMs."
+    },
+    {
+      "type": "A",
+      "text": "Every 24 hours @UTC 12:00 a.m. the displayed expected rewards will reset to 0. Then the displayed expected TiTi Rewards  will show how many TiTi you've earned exactly after the reset from the current time according to your proportion against all users' transaction volume buying TiTi using USDC in the past 24 hrs."
+    }
+  ],
+  "metadata": [{
+      "lable": "Current Epoch Progress",
+      "uuid": "activityProgress",
+      "type": "processbar"
+    },
+    {
+      "lable": "Current Epoch Countdown",
+      "uuid": "activityCountdown",
+      "type": "countdown"
+    },
+    {
+      "lable": "Total TiTi Rewards",
+      "uuid": "totalRewards",
+      "type": "decimal"
+    },
+    {
+      "lable": "Your Distributed Rewards",
+      "uuid": "claimableRewards",
+      "type": "decimal"
+    }
+  ]
+}

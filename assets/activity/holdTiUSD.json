@@ -1,0 +1,42 @@
+{
+  "name": "TiUSD Holder",
+  "description": [
+    {
+      "type":"Q",
+      "text":"How does use-to-earn reward you if you keep your TiUSD balance in your wallet?"
+    },
+    {
+      "type":"A",
+      "text":"In principle, the more TiUSD and longer time you hold, the more rewards you will earn."
+    },
+    {
+      "type":"A",
+      "text":"The use-to-earn module will scan per second your TiUSD balance and calculate how many rewards you'll earn in the same way as a staking pool does. Remember, TiTi Use-to-earn farming rewards will be distributed to users in a 7-DAY-Cycle consecutively. Meanwhile, you are able to claim use-to-earn rewards of the last Cycle (7 days) anytime after the Cycle finishes. The unclaimed TiTi Rewards for past Cycles will be automatically accumulated to your address."
+    },
+    {
+      "type":"A",
+      "text":"Keep in mind that you can claim the rewards in Epoch-1 starting from UTC 08:00 a.m. Mar 23th."
+    }
+  ],"metadata": [
+    {
+      "lable": "Current Epoch Progress",
+      "uuid": "activityProgress",
+      "type": "processbar"
+    },
+    {
+      "lable": "Current Epoch Countdown",
+      "uuid": "activityCountdown",
+      "type": "countdown"
+    },
+    {
+      "lable": "Total TiTi Rewards",
+      "uuid": "totalRewards",
+      "type": "decimal"
+    },
+    {
+      "lable": "Your Distributed Rewards",
+      "uuid": "claimableRewards",
+      "type": "decimal"
+    }
+  ]
+}
